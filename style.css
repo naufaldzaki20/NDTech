@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@100;500;800&display=swap");
+
+:root {
+  --main-color: #76b900;
+}
+html,
+body,
+* {
+  font-family: "Kanit", sans-serif;
+}
+
+.my-nav {
+  background-color: #000000;
+  height: 80px;
+  font-size: 18px;
+}
+
+.navbar-brand {
+  font-size: 2, 5em;
+  font-weight: 800;
+  letter-spacing: 3px;
+}
+
+.title {
+  font-size: 4em;
+  font-weight: 800;
+  letter-spacing: 5px;
+  color: var(--main-color);
+}
+
+.description {
+  font-size: 1, 3em;
+  font-weight: 500;
+  letter-spacing: 2px;
+  color: #ffffff;
+}
+
+.mybg {
+  background-image: url("assets/bg2.jpeg");
+  background-position: center;
+  backgrount-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+}
+
+.subtitle {
+  font-weight: 500;
+  color: var(--main-color);
+  font-size: 2em;
+  letter-spacing: 4px;
+  line-height: 1;
+}
+
+.subdescription {
+  color: black;
+  font-weight: 100;
+  font-size: 1em;
+  letter-spacing: 2px;
+}
